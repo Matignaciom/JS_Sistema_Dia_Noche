@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
+    text-align: center;
+    background-color: #87CEEB;
+    /* Color azul claro para el día */
+    color: #333;
+    /* Texto oscuro para el día */
+}
+
+.container {
+    padding: 20px;
+}
+
+.toggle-mode {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    outline: none;
+}
+
+.fa-sun {
+    font-size: 48px;
+    /* Tamaño de fuente más grande para el sol */
+    color: #F1C40F;
+    /* Color dorado para el sol (día) */
+}
+
+.fa-moon {
+    font-size: 48px;
+    /* Tamaño de fuente más grande para la luna */
+    color: white;
+    /* Color blanco para la luna (noche) */
+}
